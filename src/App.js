@@ -1,77 +1,115 @@
 import './App.css';
 import '../node_modules/react-image-gallery/styles/css/image-gallery.css';
 import ImageGallery from 'react-image-gallery';
+import cheesecake from './assets/images/cheesecake.jpeg';
+import chocolateCate from './assets/images/chocolate-cake.jpeg';
+import ciderDonut from './assets/images/cider-donut.jpeg';
+import cookie from './assets/images/cookie.jpeg';
+import cookies from './assets/images/cookies.jpeg';
+import croissant from './assets/images/croissant.jpeg';
+import crossedEyes from './assets/images/crossed-eyes.jpeg';
+import crossedEyes2 from './assets/images/crossed-eyes-2.jpeg';
+import eatingWeddingCake from './assets/images/eating-wedding-cake.jpeg';
+import iceCreamSundae from './assets/images/ice-cream-sundae.jpeg';
+import notJustDessert from './assets/images/not-just-dessert.jpeg';
+import nutallaPie from './assets/images/nutella-pie.jpeg';
+import pancakes from './assets/images/pancakes.jpeg';
+import prom from './assets/images/prom.jpeg';
+import rootbeerFloat from './assets/images/rootbeer-float.jpeg';
+import sharingDessert from './assets/images/sharing-dessert.jpeg';
+import weddingCake from './assets/images/wedding-cake.jpeg';
+import wedding from './assets/images/wedding.jpeg';
 
 const images = [
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/matty1.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/matty1.jpeg',
-    description: 'Hi, I\'m Matty Unger! Husband, Dog-Dad, CORNELL MBA Candidate, Meme-Sharer, but most of all: lover of airplanes, airport lounges, and everything related to airplanes and airport lounges!',
+    original: cheesecake,
+    thumbnail: cheesecake,
+    description: 'Hi, I\'m Karl Schwirz, and let me tell you: I. Love. Cheesecake.',
   },
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/airplane3.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/airplane3.jpeg',
-    description: 'This, my friends, is an airplane! I\'m getting a half-chubb just looking at this majestic bird',
+    original: chocolateCate,
+    thumbnail: chocolateCate,
+    description: 'But it\'s not just cheesecake, I also love chocolate cake!',
   },
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/airplane5.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/airplane5.jpeg',
-    description: 'The tail on this airplane?! DAMN!',
+    original: cookie,
+    thumbnail: cookie,
+    description: 'Even a cookie!',
   },
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/lounge1.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/lounge1.jpeg',
-    description: 'And sometimes when I fly, there are airport lounges. I feel like such a fucking boss when I sit in an airport lounge...',
+    original: crossedEyes,
+    thumbnail: crossedEyes,
+    description: 'But if you see me like this? You know what\'s coming...',
   },
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/airplane6.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/airplane6.jpeg',
-    description: 'First class, yo this is bad; Drinking orange juice out of a champagne glass; Is this what the points guys lives like?; Hmm this might be alright',
+    original: cookies,
+    thumbnail: cookies,
+    description: 'An entire tray of cookies!!',
   },
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/cornell1.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/cornell1.jpeg',
-    description: 'Also, I go to Cornell, like a boss. Ivy MBA!',
+    original: pancakes,
+    thumbnail: pancakes,
+    description: 'Or maybe some pancakes?',
   },
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/lucy1.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/lucy1.jpeg',
-    description: 'This is my dog Lucy (She. Rocks.)',
+    original: rootbeerFloat,
+    thumbnail: rootbeerFloat,
+    description: 'Or even a Root Beer Float',
   },
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/matty2.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/matty2.jpeg',
-    description: 'And my amazing wife Sabrina',
+    original: weddingCake,
+    thumbnail: weddingCake,
+    description: 'One time I had a huge party just so I could get a cake this epic',
   },
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/cornell2.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/cornell2.jpeg',
-    description: 'Also, did I mention I go to Cornell?',
+    original: wedding,
+    thumbnail: wedding,
+    description: 'Yes, Care was there, and I love her...',
   },
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/memes1.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/memes1.jpeg',
-    description: 'Have you heard of Memes? Like ICanHazCheezburger cat? Well I have ALL the memes - follow me on Instagram for all memes!',
+    original: eatingWeddingCake,
+    thumbnail: eatingWeddingCake,
+    description: 'But the cake! So worth it!',
   },
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/airplane1.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/airplane1.jpeg',
-    description: 'Sitting in one plane while looking at a DIFFERENT plane? That\'s the dream!',
+    original: notJustDessert,
+    thumbnail: notJustDessert,
+    description: 'No, my whole life isn\'t just about cake. I\'m a foodie and I love to eat.',
   },
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/airplane2.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/airplane2.jpeg',
-    description: 'That Engine? So hot right now...',
+    original: sharingDessert,
+    thumbnail: sharingDessert,
+    description: 'As I\'ve gotten older, I\'ve had to start sharing my dessert with my favorite little ones.',
   },
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/lounge2.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/lounge2.jpeg',
-    description: 'Look at this lounge, you can see a plane from it AND there are drinks!',
+    original: ciderDonut,
+    thumbnail: ciderDonut,
+    description: 'But I still love finding myself a treat, like a cider donut,',
   },
   {
-    original: 'https://mattyungerpics.s3.amazonaws.com/airplane4.jpeg',
-    thumbnail: 'https://mattyungerpics.s3.amazonaws.com/airplane4.jpeg',
-    description: 'To Summarize: My life goal is to be The Points Guy (+Sabrina and Lucy, obviously)',
+    original: iceCreamSundae,
+    thumbnail: iceCreamSundae,
+    description: 'An ice cream sundae,',
+  },
+  {
+    original: nutallaPie,
+    thumbnail: nutallaPie,
+    description: 'Or an delicious nutella pie.',
+  },
+  {
+    original: croissant,
+    thumbnail: croissant,
+    description: 'I even enjoy a nice croissant.',
+  },
+  {
+    original: crossedEyes2,
+    thumbnail: crossedEyes2,
+    description: 'But the one thing that always gets me looking all googley eyed...',
+  },
+  {
+    original: prom,
+    thumbnail: prom,
+    description: 'Is this beaitiful wife of mine!',
   },
 ];
 
