@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/karlschwirz.com/static/css/main.a617e044.chunk.css",
+    "main.js": "/karlschwirz.com/static/js/main.d55ce716.chunk.js",
+    "main.js.map": "/karlschwirz.com/static/js/main.d55ce716.chunk.js.map",
+    "runtime-main.js": "/karlschwirz.com/static/js/runtime-main.2e4e6a67.js",
+    "runtime-main.js.map": "/karlschwirz.com/static/js/runtime-main.2e4e6a67.js.map",
+    "static/css/2.6cd54866.chunk.css": "/karlschwirz.com/static/css/2.6cd54866.chunk.css",
+    "static/js/2.56498f00.chunk.js": "/karlschwirz.com/static/js/2.56498f00.chunk.js",
+    "static/js/2.56498f00.chunk.js.map": "/karlschwirz.com/static/js/2.56498f00.chunk.js.map",
+    "static/js/3.7d276f49.chunk.js": "/karlschwirz.com/static/js/3.7d276f49.chunk.js",
+    "static/js/3.7d276f49.chunk.js.map": "/karlschwirz.com/static/js/3.7d276f49.chunk.js.map",
+    "index.html": "/karlschwirz.com/index.html",
+    "static/css/2.6cd54866.chunk.css.map": "/karlschwirz.com/static/css/2.6cd54866.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/karlschwirz.com/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.56498f00.chunk.js.LICENSE.txt": "/karlschwirz.com/static/js/2.56498f00.chunk.js.LICENSE.txt",
+    "static/media/cheesecake.ba5ff4a9.jpeg": "/karlschwirz.com/static/media/cheesecake.ba5ff4a9.jpeg",
+    "static/media/chocolate-cake.1d1dc73a.jpeg": "/karlschwirz.com/static/media/chocolate-cake.1d1dc73a.jpeg",
+    "static/media/cider-donut.70607618.jpeg": "/karlschwirz.com/static/media/cider-donut.70607618.jpeg",
+    "static/media/cookie.3e4e17df.jpeg": "/karlschwirz.com/static/media/cookie.3e4e17df.jpeg",
+    "static/media/cookies.caaf3871.jpeg": "/karlschwirz.com/static/media/cookies.caaf3871.jpeg",
+    "static/media/croissant.167328f0.jpeg": "/karlschwirz.com/static/media/croissant.167328f0.jpeg",
+    "static/media/crossed-eyes-2.b435957d.jpeg": "/karlschwirz.com/static/media/crossed-eyes-2.b435957d.jpeg",
+    "static/media/crossed-eyes.b9a13aa0.jpeg": "/karlschwirz.com/static/media/crossed-eyes.b9a13aa0.jpeg",
+    "static/media/eating-wedding-cake.5fbdc94d.jpeg": "/karlschwirz.com/static/media/eating-wedding-cake.5fbdc94d.jpeg",
+    "static/media/ice-cream-sundae.44840148.jpeg": "/karlschwirz.com/static/media/ice-cream-sundae.44840148.jpeg",
+    "static/media/not-just-dessert.21601c87.jpeg": "/karlschwirz.com/static/media/not-just-dessert.21601c87.jpeg",
+    "static/media/nutella-pie.71a20b65.jpeg": "/karlschwirz.com/static/media/nutella-pie.71a20b65.jpeg",
+    "static/media/pancakes.8ad03cb6.jpeg": "/karlschwirz.com/static/media/pancakes.8ad03cb6.jpeg",
+    "static/media/prom.404fa900.jpeg": "/karlschwirz.com/static/media/prom.404fa900.jpeg",
+    "static/media/rootbeer-float.cdf02937.jpeg": "/karlschwirz.com/static/media/rootbeer-float.cdf02937.jpeg",
+    "static/media/sharing-dessert.9e64de46.jpeg": "/karlschwirz.com/static/media/sharing-dessert.9e64de46.jpeg",
+    "static/media/wedding-cake.46522f1d.jpeg": "/karlschwirz.com/static/media/wedding-cake.46522f1d.jpeg",
+    "static/media/wedding.5786e68c.jpeg": "/karlschwirz.com/static/media/wedding.5786e68c.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e4e6a67.js",
+    "static/css/2.6cd54866.chunk.css",
+    "static/js/2.56498f00.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.d55ce716.chunk.js"
+  ]
+}
